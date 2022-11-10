@@ -41,9 +41,9 @@ pTotal.innerHTML = "Total"
 pTotal.classList.add("valorTotal")
 div2.appendChild(pTotal)
 
-let ButtonEnd = document.createElement("button")
-ButtonEnd.innerHTML = "Finalizar Comprar"
-ButtonEnd.classList.add("botao")
+let buttonEnd = document.createElement("button")
+buttonEnd.innerHTML = "Finalizar Comprar"
+buttonEnd.classList.add("botao")
 section2.appendChild(ButtonEnd)
 
 
