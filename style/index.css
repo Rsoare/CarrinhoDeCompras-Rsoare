@@ -1,0 +1,123 @@
+.header-edit {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-edit, h1 {
+    font-weight: 800;
+    font-family: sans-serif;
+    letter-spacing: 8px;
+}
+
+.main-edit {
+    display: flex;
+    height: 700px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secaoProdutos {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divProdutos {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.paragrafoProdutos {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0 15px;
+}
+
+.listaProdutos {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.produto {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c3c3c35d;
+    border-radius: 8px;
+}
+
+.nome {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0 15px;
+}
+
+.preco {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0 15px;
+}
+
+.secaoFinal {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divFinal {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(133, 130, 130);
+    border-radius: 8px;
+}
+
+.valorTotal {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0 15px;
+}
+
+.botao {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 255, 110);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    border: none;
+}
