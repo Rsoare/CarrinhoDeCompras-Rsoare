@@ -44,7 +44,7 @@ div2.appendChild(pTotal)
 let buttonEnd = document.createElement("button")
 buttonEnd.innerHTML = "Finalizar Comprar"
 buttonEnd.classList.add("botao")
-section2.appendChild(ButtonEnd)
+section2.appendChild(buttonEnd)
 
 
 function listaDeProdutos(arrObj) {
